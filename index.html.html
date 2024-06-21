@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Moda</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fffaf0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6347;
+        }
+        .container {
+            padding: 2em 5%;
+        }
+        .collage {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-bottom: 2em;
+        }
+        .collage img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: #555;
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 0.5em;
+            margin-top: 1em;
+        }
+        .estilo {
+            margin-bottom: 2em;
+        }
+        .estilo h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            color: #fff;
+            background-color: #ff6347;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 1em;
+        }
+        .estilo p {
+            font-size: 1.1em;
+            color: #666;
+            margin-top: 0.5em;
+        }
+        .estilo ul {
+            list-style-type: square;
+            padding-left: 20px;
+            font-size: 1.1em;
+        }
+        .estilo ul li {
+            color: #555;
+            margin-top: 0.5em;
+        }
+        .musica {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 2em;
+            margin-top: 2em;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .musica a {
+            color: #ff6347;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .musica ol {
+            padding-left: 0;
+            list-style: none;
+            font-size: 1.1em;
+        }
+        .musica ol li {
+            background-color: #333;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>111Glam</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#oldmoney">Old Money</a>
+        <a href="#y2k">Y2K</a>
+        <a href="#preppy">Preppy</a>
+        <a href="#mexicancore">Mexican Core</a>
+        <a href="#stargirl">Star Girl</a>
+        <a href="#casual">Casual</a>
+        <a href="#officesiren">Office Siren</a>
+    </nav>
+    <div class="container" id="inicio">
+        <h2>Inicio</h2>
+        <div class="collage">
+            <img src="image1.jpg" alt="Imagen 1">
+            <img src="image2.jpeg" alt="Imagen 2">
+            <img src="image3.jpeg" alt="Imagen 3">
+            <img src="image4.jpeg" alt="Imagen 4">
+            <img src="image5.jpg" alt="Imagen 5">
+            <img src="image6.jpg" alt="Imagen 6">
+            <img src="image7.jpg" alt="Imagen 7">
+            <img src="image8.jpg" alt="Imagen 8">
+        </div>
+        <h2>Introducción</h2>
+        <p>Bienvenid@ a mi página de moda. Aquí exploramos diferentes estilos y tendencias que han marcado época y continúan influyendo en la moda contemporánea.También encontraras información detallada sobre diferentes estilos de moda,sus origenes y las prendas claves para cada una de ellas.</p>
+    </div>
+    <div class="container">
+        <div class="estilo" id="oldmoney">
+            <h3>Old Money</h3>
+            <div class="collage">
+                <img src="oldmoney1.jpg" alt="Old Money 1">
+                <img src="oldmoney2.jpg" alt="Old Money 2">
+                <img src="oldmoney3.jpg" alt="Old Money 3">
+            </div>
+            <p>El estilo "Old Money" surge de las clases altas tradicionales y se caracteriza por su elegancia y sobriedad. Este estilo emana riqueza y sofisticación sin ser llamativo.</p>
+            <ul>
+                <li>Prendas de alta calidad hechas a medida</li>
+                <li>Colores neutros y clásicos como el beige, navy y negro</li>
+                <li>Accesorios discretos y elegantes como relojes de lujo y joyas finas</li>
+                <li>Materiales nobles como la lana, cachemira y seda</li>
+            </ul>
+        </div>
+        <div class="estilo" id="y2k">
+            <h3>Y2K</h3>
+            <div class="collage">
+                <img src="y2k1.jpg" alt="Y2K 1">
+                <img src="y2k2.jpg" alt="Y2K 2">
+                <img src="y2k3.jpg" alt="Y2K 3">
+            </div>
+            <p>El estilo "Y2K" es una reminiscencia de la moda de principios de los 2000, con toques futuristas y nostálgicos. Este estilo es conocido por sus colores vibrantes y elementos tecnológicos.</p>
+            <ul>
+                <li>Colores metálicos y neones</li>
+                <li>Accesorios tecnológicos como gafas de sol futuristas y gadgets</li>
+                <li>Prendas ajustadas y brillantes</li>
+                <li>Estampados gráficos y detalles de inspiración cibernética</li>
+            </ul>
+        </div>
+        <div class="estilo" id="preppy">
+            <h3>Preppy</h3>
+            <div class="collage">
+                <img src="preppy1.jpg" alt="Preppy 1">
+                <img src="preppy2.jpg" alt="Preppy 2">
+                <img src="preppy3.jpg" alt="Preppy 3">
+            </div>
+            <p>El estilo "Preppy" está inspirado en las escuelas privadas y universidades de élite de Estados Unidos. Se caracteriza por ser limpio, clásico y sofisticado.</p>
+            <ul>
+                <li>Blazers y camisas polo</li>
+                <li>Faldas de cuadros y suéteres sobre los hombros</li>
+                <li>Zapatos náuticos y mocasines</li>
+                <li>Colores como el azul marino, rojo y blanco</li>
+            </ul>
+        </div>
+        <div class="estilo" id="mexicancore">
+            <h3>Mexican Core</h3>
+            <div class="collage">
+                <img src="mexicancore1.jpg" alt="Mexican Core 1">
+                <img src="mexicancore2.jpg" alt="Mexican Core 2">
+                <img src="mexicancore3.jpg" alt="Mexican Core 3">
+            </div>
+            <p>El "Mexican Core" mezcla elementos tradicionales mexicanos con toques modernos. Este estilo celebra la cultura mexicana a través de colores vivos,vestidos largos y blancos con accesorios con cruces y relicarios.</p>
+            <ul>
+                <li>Colores vibrantes y estampados florales</li>
+                <li>Accesorios artesanales como sombreros y joyería hecha a mano</li>
+ <li>Tejidos naturales como algodón y lino</li>
+            <li>Motivos tradicionales como bordados y patrones aztecas</li>
+        </ul>
+    </div>
+    <div class="estilo" id="stargirl">
+        <h3>Star Girl</h3>
+        <div class="collage">
+            <img src="stargirl1.jpg" alt="Star Girl 1">
+            <img src="stargirl2.jpg" alt="Star Girl 2">
+            <img src="stargirl3.jpg" alt="Star Girl 3">
+        </div>
+        <p>El estilo "Star Girl" es glamoroso y lleno de brillo, inspirado en las estrellas de Hollywood y la alta costura. Este estilo busca siempre destacar y llamar la atención.</p>
+        <ul>
+            <li>Prendas con lentejuelas y brillos</li>
+            <li>Vestidos largos y elegantes</li>
+            <li>Zapatos de tacón alto y accesorios llamativos</li>
+            <li>Colores metálicos y tonos joya</li>
+        </ul>
+    </div>
+    <div class="estilo" id="casual">
+        <h3>Casual</h3>
+        <div class="collage">
+            <img src="casual1.jpg" alt="Casual 1">
+            <img src="casual2.jpg" alt="Casual 2">
+            <img src="casual3.jpg" alt="Casual 3">
+        </div>
+        <p>El estilo "Casual" es cómodo y relajado, perfecto para el día a día. Este estilo se caracteriza por su simplicidad y funcionalidad sin perder el toque de moda.</p>
+        <ul>
+            <li>Jeans y camisetas básicas</li>
+            <li>Zapatillas y sandalias cómodas</li>
+            <li>Prendas de algodón y tejidos suaves</li>
+            <li>Colores neutros y diseños simples</li>
+        </ul>
+    </div>
+    <div class="estilo" id="officesiren">
+        <h3>Office Siren</h3>
+        <div class="collage">
+            <img src="officesiren1.jpg" alt="Office Siren 1">
+            <img src="officesiren2.jpg" alt="Office Siren 2">
+            <img src="officesiren3.jpg" alt="Office Siren 3">
+        </div>
+        <p>El estilo "Office Siren" está tendencia esta influenciado por ropa que se usaría comúnmente en una oficina, busca lucir elegante y sensual. Este estilo combina prendas clásicas con toques modernos.</p> 
+        <ul>
+            <li>Trajes de pantalón y falda</li>
+            <li>Blusas de seda y camisas elegantes</li>
+            <li>Tacones y zapatos de vestir</li>
+            <li>Colores neutros con detalles en tonos vivos</li>
+        </ul>
+    </div>
+</div>
+<div>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi It Girl favorita </title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fffaf0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .tabla-imagenes {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2em 0;
+        }
+        .tabla-imagenes td, .tabla-imagenes th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .tabla-imagenes tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .tabla-imagenes tr:hover {
+            background-color: #ddd;
+        }
+        .tabla-imagenes th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
+        .tabla-imagenes img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+
+<p>Para finalizar tenemos a una de mis It Girl* favoritas, Bella Hadid una de las modelos mas famosas y mejor pagadas en la industria de la moda: algunos de sus mejores oufits.
+<br>
+*Las it girls son mujeres que tienen un magnetismo innato, y esto es algo que no se puede copiar,<br>
+ comprar o imitar ya que surge de una actitud natural.<br>
+Tienen “algo” propio y auténtico que, al ser tan genuino, se vuelve ultra atractivo para el resto.</p> 
+    <table class="tabla-imagenes">
+        
+              <tr>
+            <th>fit 1</th>
+            <th>fit 2</th>
+            <th>fit 3</th>
+        </tr>
+        <tr>
+            <td><img src="image1a.jpg" alt="Imagen 1"></td>
+            <td><img src="image2a.jpg" alt="Imagen 2"></td>
+            <td><img src="image3a.jpg" alt="Imagen 3"></td>
+        </tr>
+        <tr>
+            <th>fit 4</th>
+            <th>fit 5</th>
+            <th>fit 6</th>
+        </tr>
+        <tr>
+            <td><img src="image4a.jpg" alt="Imagen 4"></td>
+            <td><img src="image5a.jpg" alt="Imagen 5"></td>
+            <td><img src="image6a.jpg" alt="Imagen 6"></td>
+        </tr>
+    </table>
+<p>Gracias por leer mi pagina, espero hallas disfrutado el contenido.</p><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHZheDEwcTExMmMzN3k0YWNpenZqaXRmcmRydHM3emZybHR6a2ZtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wj7lNjMNDxSmc/giphy.webp">
+ 
+ <audio contols autoplay loop>
+        <source src="tucancion.mp3" type="audio/mpeg">
+       </audio>
+</div>
+<div class="musica">
+    <h2>Música del momento</h2>
+    <ol>
+        <li><a href="https://open.spotify.com/intl-es/track/629DixmZGHc7ILtEntuiWE?si=1943f2525e994365" target="_blank">Escuchar en Spotify</a>
+    </p></li>
+        <li><a href="https://open.spotify.com/intl-es/track/0Lmbke3KNVFXtoH2mMSHCw?si=9209f6eb46084518" target="_blank">Escuchar en Spotify</a>
+    </p></li>
+        <li><a href="https://open.spotify.com/intl-es/track/2qSkIjg1o9h3YT9RAgYN75?si=1de3a9b337a542a2" target="_blank">Escuchar en Spotify</a>
+    </p></li>
+        <li><a href="https://open.spotify.com/intl-es/track/7BRD7x5pt8Lqa1eGYC4dzj?si=39cc10fe624a4a09" target="_blank">Escuchar en Spotify</a>
+    </p></li>
+        <li><a href="https://open.spotify.com/intl-es/track/6ECp64rv50XVz93WvxXMGF?si=ac15a386e907478a" target="_blank">Escuchar en Spotify</a>
+    </p></li>
+    </ol>
+    
+</div>
